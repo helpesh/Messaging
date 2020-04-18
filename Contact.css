@@ -1,0 +1,117 @@
+body
+{
+margin:0;
+padding:0;
+height:100%;
+text-align:center;
+background:url(image.jpg);
+background-size:cover;
+background-position:center;
+font-family:'Arial',serif,sans-serif;
+}
+.contact-title
+{
+	margin-top:100px;
+	color:#fff;
+	text-transform:uppercase;
+	transition:all 4s ease-in-out;
+}
+.contact-title h1
+{
+	font-size:32px;
+	line-height:10px;
+}
+.contact-title h2
+{
+	font-size:16px;
+}
+form
+{
+	width:50%;
+    color:#fff;
+    left:50%;
+	background-color:rgba(0,0,0,0.5);
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+	margin-top:50px;
+}
+label
+{
+	font-size:20px;
+	color:#db1b46;
+	font-weight:bold;
+}
+fieldset
+{
+	border-radius:22px;
+}
+legend
+{
+	
+	text-align:left;
+	font-size:22px;
+	font-weight:bold;
+	padding:10px;
+	margin:10px;
+}
+.nav
+{
+	background-color:#595959;
+	color:#fff;
+	list-style:none;
+	text-align:center;
+	padding:20px 0 20px 0;
+}
+.nav  li
+{
+	display:inline-block;
+	padding:0 25px 0 25px;	
+}
+.nav li a
+{
+	text-decoration:none;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+	margin-right:15px;
+}
+.nav li a:hover
+{
+	color:#c1c1c1;
+}
+.form-control
+{
+	width:100%;
+	background:transparent;
+	border:none;
+	outline:none;
+	border-color:1px solid #fff;
+	color:#fff;
+	border-radius:22px;
+	padding:10px;
+	font-size:18px;
+	margin-bottom:16px;
+}
+form .submit
+{
+	background:#ff5722;
+	border-color:transparent;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	height:50px;
+	margin-top:20px;
+}
+form .submit:hover
+{
+	background-color:#f44336;
+	cursor:pointer;
+}
+p
+{
+	color:#db1b46;
+	font-size:20px;
+	font-weight:bold;
+}
